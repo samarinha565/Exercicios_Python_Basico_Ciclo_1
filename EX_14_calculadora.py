@@ -52,3 +52,32 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+print('|',30*'-','|')
+print('| Calculadora')
+print('|',30*'-','|')
+
+print('| 1 - Soma')
+print('| 2 - Subtração')
+print('| 3 - Mulltiplicação')
+print('| 4 - Divisão')
+print('|',30*'-','|')
+
+escolha = input('| Escolha uma das opções: ')
+n1 = int(input('| Digite o primeiro número: '))
+n2 = int(input('| Digite o segundo número: '))
+
+soma = (n1+n2)
+subtrair = (n1-n2)
+multiplicar = (n1*n2)
+dividir = (n1/n2)
+
+if escolha == '1':
+    print(f'| O resultado é: {soma}')
+elif escolha == '2':
+    print(f'| O Resultado é: {subtrair}')
+elif escolha == '3':
+    print(f'| O Resultado é: {multiplicar}')
+elif escolha == '4':
+    print(f'| O Resultado é: {dividir}')
+else:
+    print('| ERRO. Escolha uma opção válida.')

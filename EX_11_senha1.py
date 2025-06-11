@@ -15,3 +15,9 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+senha_r = ('5893')
+senha = input('Digite a senha: ')
+if senha == senha_r:
+    print('Senha Correta')
+else:
+    print('Senha Incorreta')

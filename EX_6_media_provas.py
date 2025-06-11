@@ -21,3 +21,23 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print('|',30*'_','|')
+print('| SISTEMA DE PROVAS')
+print('|',30*'_','|')
+
+nome = input('| Nome do Aluno: ')
+n1 = float(input('| Nota da primeira prova: '))
+n2 = float(input('| Nota da segunda prova: '))
+n3 = float(input('| Nota da terceira prova: '))
+print('|',30*'_','|')
+
+soma = n1+n2+n3
+media = soma/3
+# media = round(media, 2)
+print(f'| Aluno: {nome}')
+print(f'| Média: {media:.2f}')
+if media >=5:
+    print('| Aluno Aprovado')
+else:
+    print('| Aluno Reprovado')
+print('|',30*'_','|')

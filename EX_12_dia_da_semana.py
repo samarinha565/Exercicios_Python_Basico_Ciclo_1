@@ -20,3 +20,20 @@
 # Número errado
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+dias = int(input('Digite um número: '))
+if dias == 1:
+    print('Domingo')
+elif dias == 2:
+    print('Segunda')
+elif dias == 3:
+    print('Terça')
+elif dias == 4:
+    print('Quarta')
+elif dias == 5:
+    print('Quinta')
+elif dias == 6:
+    print('Sexta')
+elif dias == 7:
+    print('Sábado')
+else:
+    print('Número Errado')

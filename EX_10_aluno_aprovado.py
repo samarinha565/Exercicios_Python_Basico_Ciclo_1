@@ -17,3 +17,11 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+n1 = float(input('Digite a primeira nota: '))
+n2 = float(input('Digite a segunda nota: '))
+
+media = (n1+n2)/2
+if (n1 != 0) and (n2 != 0) and media >= 7:
+    print(f'Aluno aprovado? {media >= 7}')
+else:
+    print(f'Aluno aprovado? {media >= 7}')
